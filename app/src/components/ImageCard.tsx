@@ -28,7 +28,7 @@ export const ImageCard = (props: ImageCardProps):  React.ReactElement => {
                 setLiked(true);
             }
         }
-    }, []);
+    }, [title]);
 
     const onLike = (liked: boolean) => {
         setLiked(liked);

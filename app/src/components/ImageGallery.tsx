@@ -1,4 +1,3 @@
-import { Masonry } from '@mui/lab';
 import { CircularProgress, Grid } from '@mui/material';
 import React from 'react';
 import { Image } from '../App';
