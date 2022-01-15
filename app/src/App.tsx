@@ -8,6 +8,7 @@ import moment from 'moment';
 import { DateRangePicker } from './components/DateRangePicker';
 import { ImageGallery } from './components/ImageGallery';
 import { TopBar } from './components/TopBar';
+import "@fontsource/open-sans";
 
 const API_KEY = "1nT1pUZ40d07zP9XdcMrlIZqvcc5UNodOPyp6ZWC";
 
@@ -33,7 +34,10 @@ const theme = createTheme({
     background: {
       default: "#262833"
     }
-  }
+  },
+  typography: {
+    fontFamily: "'Open Sans', sans-serf",
+  },
 })
 
 function App() {
