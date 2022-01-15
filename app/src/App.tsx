@@ -1,12 +1,11 @@
+import React, { useEffect, useState } from 'react';
+import './App.css';
 import { ThemeProvider } from '@emotion/react';
-import { Alert, Box, CircularProgress, Fade, Grid, LinearProgress } from '@mui/material';
+import { Alert, Box, Fade, } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import axios from 'axios';
 import moment from 'moment';
-import React, { useEffect, useState } from 'react';
-import './App.css';
 import { DateRangePicker } from './components/DateRangePicker';
-import { ImageCard } from './components/ImageCard';
 import { ImageGallery } from './components/ImageGallery';
 import { TopBar } from './components/TopBar';
 

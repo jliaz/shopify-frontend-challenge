@@ -1,4 +1,4 @@
-import { Box, Toolbar, IconButton, Typography, Button, AppBar } from '@mui/material';
+import { Box, Toolbar, Typography, AppBar } from '@mui/material';
 import React from 'react';
 
 export const TopBar = (): React.ReactElement => {
