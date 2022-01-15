@@ -93,7 +93,7 @@ export const ImageCard = (props: ImageCardProps):  React.ReactElement => {
             }}>
                 <Fade in={!open} unmountOnExit>
                     <IconButton aria-label="expand photo details" onClick={()=>{setOpen(!open)}} >
-                        <KeyboardArrowDownIcon/>
+                        <KeyboardArrowUpIcon/>
                     </IconButton>
                 </Fade>
                 <Collapse in={open} timeout="auto" unmountOnExit>
@@ -109,7 +109,7 @@ export const ImageCard = (props: ImageCardProps):  React.ReactElement => {
                 </Collapse>
                 <Fade in={open} unmountOnExit>
                     <IconButton aria-label="close photo details" onClick={()=>{setOpen(!open)}} >
-                        <KeyboardArrowUpIcon/>
+                        <KeyboardArrowDownIcon/>
                     </IconButton>
                 </Fade>
             </CardContent>
