@@ -68,7 +68,7 @@ export const ImageCard = (props: ImageCardProps):  React.ReactElement => {
                     justifyContent="space-between"
                     alignItems="flex-start"
                 >
-                    <Grid item xs={6} marginLeft={1} height="50px">
+                    <Grid item xs={6} marginLeft={1} height="100px">
                         <Typography variant="body1" component="div" align="left" >
                             <b> { title } </b>
                         </Typography>
