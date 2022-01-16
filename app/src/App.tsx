@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import { ThemeProvider } from '@emotion/react';
 import { Alert, Box, Fade, } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
+import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 import axios from 'axios';
 import moment from 'moment';
 import { DateRangePicker } from './components/DateRangePicker';
@@ -82,7 +82,7 @@ function App() {
 
   return (
     <div className="App">
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={responsiveFontSizes(theme)}>
         <TopBar />
         <DateRangePicker 
           start={startDate}
